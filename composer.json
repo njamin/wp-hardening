@@ -1,0 +1,25 @@
+{
+    "name": "njamin/wp-hardening",
+    "description": "WordPress security baseline, loaded as a must-use plugin.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/Support/"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

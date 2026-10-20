@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: njamin/wp-hardening\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-19T20:25:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: bp-hardening\n"
+
+#: class-hardening.php:120
+msgid "Invalid credentials. Please try again."
+msgstr ""
+
+#: class-honeypot.php:24
+msgid "Leave this field empty"
+msgstr ""
+
+#: class-login-throttle.php:33
+#: class-username-lockout.php:41
+msgid "Too many login attempts. Please try again later."
+msgstr ""
+
+#. translators: %d: minimum number of characters.
+#: class-password-policy.php:67
+#, php-format
+msgid "The password must have at least %d characters."
+msgstr ""
+
+#: class-password-policy.php:71
+msgid "This password has appeared in a data breach. Please choose another one."
+msgstr ""
+
+#: class-two-factor-policy.php:45
+msgid "Your role requires two-factor authentication. Set up a method below to continue."
+msgstr ""

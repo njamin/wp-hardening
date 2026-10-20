@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: njamin/wp-hardening\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: bp-hardening\n"
+
+msgid "Invalid credentials. Please try again."
+msgstr "Identifiants invalides. Veuillez réessayer."
+
+msgid "Leave this field empty"
+msgstr "Laissez ce champ vide"
+
+msgid "Too many login attempts. Please try again later."
+msgstr "Trop de tentatives de connexion. Veuillez réessayer plus tard."
+
+#. translators: %d: minimum number of characters.
+msgid "The password must have at least %d characters."
+msgstr "Le mot de passe doit comporter au moins %d caractères."
+
+msgid "This password has appeared in a data breach. Please choose another one."
+msgstr "Ce mot de passe figure dans une fuite de données. Veuillez en choisir un autre."
+
+msgid "Your role requires two-factor authentication. Set up a method below to continue."
+msgstr "Votre rôle impose l’authentification à deux facteurs. Configurez une méthode ci-dessous pour continuer."
