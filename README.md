@@ -47,7 +47,7 @@ Every setting is an optional constant in `wp-config.php`:
 | `BP_LOGIN_IP_LIMIT`, `BP_LOGIN_IP_WINDOW` | Failed logins allowed per IP, and over how many seconds |
 | `BP_LOST_PASSWORD_LIMIT` | Lost-password requests per IP and hour (default 5) |
 | `BP_PASSWORD_MIN_LENGTH`, `BP_BREACHED_PASSWORD_CHECK` | Password length, and the breach check on or off |
-| `BP_2FA_ROLES`, `BP_2FA_EXEMPT_USERS` | Roles that must use 2FA; users exempt on a local environment only |
+| `BP_2FA_ROLES`, `BP_2FA_EXEMPT_USERS` | Roles that must use 2FA (a plugin adds its own on the `bp/hardening/two_factor_roles` filter); users exempt on a local environment only, by login or by a prefix ending in `*` (`e2e-*` for the end-to-end tests' accounts) |
 | `BP_ADMIN_SESSION_LIFETIME` | Administrator session length, in seconds |
 | `BP_ALLOW_APPLICATION_PASSWORDS` | Application passwords stay off unless this is true |
 | `BP_SVG_SANITISER` | Allows SVG uploads through the named sanitiser |
